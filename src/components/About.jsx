@@ -11,13 +11,13 @@ const About = () => {
         </div>
 
         <p className='text-xl mt-20'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur aspernatur, ratione soluta cum vel voluptate dignissimos a officiis sunt, autem ducimus hic nemo expedita pariatur fugiat id et adipisci. Odit, numquam asperiores voluptatum earum aut commodi architecto, totam magni aspernatur eveniet similique quod sunt facilis repellat voluptates excepturi, eaque tempore?
+        Welcome to my portfolio website! I'm Prateek, a passionate full-stack web developer based in Dehradun, India. I recently completed a rigorous 6-month internship in full-stack website development, where I gained valuable hands-on experience in building dynamic and responsive web applications. With my newly acquired skills, I am thrilled to showcase my exciting projects on this website.
         </p>
 
         <br />
 
         <p className='text-xl'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, molestias? Commodi, numquam earum? Nobis, sed excepturi non earum veniam illum vitae aperiam deserunt quo error doloribus explicabo, animi perspiciatis culpa corporis fugiat quaerat. Dolore sint consequatur eum minima ipsa placeat, eaque, deserunt asperiores consectetur optio excepturi enim, officiis quos praesentium?
+        Coding is not just a profession for me; it's a true passion. I find immense joy in solving complex problems and creating intuitive user experiences through code. This portfolio serves as a platform for recruiters to explore my work and get a glimpse of my technical abilities. I have also provided a direct download of my resume, making it convenient for recruiters to access all the necessary information in one place. I'm excited to share my journey and demonstrate my growth as a developer through the projects I have built. Thank you for visiting my portfolio website, and I look forward to connecting with you!
         </p>
       </div>
 
