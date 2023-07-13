@@ -6,14 +6,14 @@ import {Link} from 'react-scroll'
 const Home = () => {
   return (
     <div name="home" className='h-screen w-full bg-gradient-to-b
-             from-black via-black to-slate-800'>
+             from-black via-black to-slate-800 '>
       
-      <div className='mav-v-screen-lg mx-auto flex flex-col
+      <div className='max-w-screen-lg mx-auto p-12 flex flex-col
              items-center justify-center h-full px-4 md:flex-row'>
         
-        <div className='text-center lg:text-left lg:w-1/2 lg:ml-20 '>
+        <div className='flex flex-col justify-center h-full '>
             
-            <h2 className='text-4xl sm:text-7xl mt-48 sm:mt-0 font-bold text-white'>
+            <h2 className='text-4xl sm:text-7xl mt-12 sm:mt-0 font-bold text-white'>
                 I'm a Full Stack Developer</h2>
                 <p className='text-slate-400 py-4 max-w-md'>
                     I am building and designing some awesome projects to 
@@ -27,13 +27,13 @@ const Home = () => {
                      rounded-md bg-gradient-to-r from-green-700 to-cyan-700 cursor-pointer'>
                         Portfolio
                         <span className='group-hover:rotate-90 duration-300'>
-                            <TiArrowRightOutline size={20} className='ml-1.5'/>
+                            <TiArrowRightOutline size={25} className='ml-1.5'/>
                         </span>
                     </Link>
                 </div>
         </div>
         <div>
-            <img src={HeroImage} alt="my profile" className='rounded-2xl mx-auto lg:w-1/2 md:w-full ' />
+            <img src={HeroImage} alt="my profile" className='rounded-2xl mx-auto w-2/3 md:w-full' />
         </div>
       </div>
     </div>
