@@ -9,4 +9,13 @@
   html {
     font-family: 'Raleway', sans-serif;
   }
+
+  @media screen and (max-width: 480px) {
+    .experience{
+        transform: scale(0.7);
+    }}
+  @media screen and (max-width: 480px) {
+  .n-list {
+    display: none;
+  } }
 }
