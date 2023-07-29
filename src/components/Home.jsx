@@ -6,7 +6,7 @@ import {Link} from 'react-scroll'
 const Home = () => {
   return (
     <div name="home" className='h-screen w-full bg-gradient-to-b
-             from-black via-slate-900 to-slate-700'>
+    from-orange-500 via-red-450 to-red-600'>
       
       <div className='max-w-screen-lg mx-auto flex flex-col
              items-center justify-center h-full px-4 md:flex-row'>
@@ -15,7 +15,7 @@ const Home = () => {
             
             <h2 className='text-4xl sm:text-7xl mt-7 sm:mt-0 font-bold text-white'>
                 I'm a Full Stack Developer</h2>
-                <p className='text-slate-400 py-4 max-w-md'>
+                <p className='text-black py-4 max-w-md'>
                     I am building and designing some awesome projects to 
                     showcase my skills in WebsiteDevelopment.
                     I will be using web application technologies like :-
