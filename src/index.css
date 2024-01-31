@@ -1,18 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Source+Code+Pro&display=swap');
 
-/* Your existing Tailwind CSS imports */
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto Mono', sans-serif;
 
-/* Additional responsive styles */
-@media (max-width: 767px) {
-  /* Styles for small screens */
-  /* Add your responsive styles here */
 }
-
-@media (min-width: 768px) and (max-width: 1023px) {
-  /* Styles for medium screens */
-  /* Add your responsive styles here */
+body{
+    background: #000;
+}
+h1, h4, p, a{
+    color: #ffff;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.btn {
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    border-radius: 9px;
+    background: #abec51;
+    border: none;
+    font-family: inherit;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+    color: #000;
+   }
+   
+   .btn:hover {
+    box-shadow: 7px 5px 56px -14px #C3D900;
+   }
+   
+   .btn:active {
+    transform: scale(0.97);
+    box-shadow: 7px 5px 56px -10px #C3D900;
+   }
+.btn-light{
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 9px;
+  padding-left: 33px;
+    padding-right: 33px;
+    padding-bottom: 16px;
+    padding-top: 16px;
 }
