@@ -1,6 +1,7 @@
-import { FaFacebook, FaGithub, FaHome, FaInstagram, FaMailBulk, FaPhone} from "react-icons/fa"
+import { FaDiscord, FaGithub, FaHome, FaInstagram, FaLinkedin, FaMailBulk, FaPhone} from "react-icons/fa"
 import "./FooterStyles.css"
 import React from 'react'
+import { Link } from "react-router-dom"
 
 const Footer = () => {
   return (
@@ -35,10 +36,11 @@ const Footer = () => {
                 <p>Full Stack Web Developer | Cloud Enthusiast | WordPress Developer | DIT University.</p>
             
             <div className="social">
-                <FaFacebook size={20} style={{color:"#fff", marginRight: "1rem"}}/>
-                <FaInstagram size={20} style={{color:"#fff", marginRight: "1rem"}}/>
-                <FaGithub size={20} style={{color:"#fff", marginRight: "1rem"}}/>
-            </div>
+                <Link to="https://discord.com/channels/prateek055"><FaDiscord size={20} style={{color:"#fff", marginRight: "1rem"}}/></Link>
+                <Link to="https://www.linkedin.com/in/prateek-thapliyal-496576244/"><FaLinkedin size={20} style={{color:"#fff", marginRight: "1rem"}}/></Link>
+                <Link to="https://github.com/Prat05devs"><FaGithub size={20} style={{color:"#fff", marginRight: "1rem"}}/></Link>
+                <Link to="https://www.instagram.com/prateek_th_02/"><FaInstagram size={20} style={{color:"#fff", marginRight: "1rem"}}/></Link>
+                </div>
             </div>
         </div>
     </div>
