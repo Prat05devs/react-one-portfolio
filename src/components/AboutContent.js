@@ -12,9 +12,22 @@ const AboutContent = () => {
         <div className="left">
             <h1>Who Am I ?</h1>
             <p>I'm a certified Full Stack Developer skilled in React, Let's connect and work together to shape a smarter, connected future</p>
-        <Link to="/contact">
-            <button className="btn">Contact</button>
-        </Link>
+            <table className="button-table">
+        <tbody>
+            <tr>
+                <td>
+                    <Link to="/contact">
+                        <button className="btn">Contact</button>
+                    </Link>
+                </td>
+                <td>
+                    <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                        <button className="btn">Resume</button>
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
         </div>
 
         <div className="right">
