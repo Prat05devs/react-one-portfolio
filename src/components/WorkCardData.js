@@ -4,6 +4,9 @@ import pro3 from "../assets/project3.png"
 import pro4 from "../assets/project4.jpg"
 import pro5 from "../assets/project5.png"
 import pro6 from "../assets/project6.png"
+import pro7 from "../assets/project7.png"
+import pro8 from "../assets/project8.png"
+import pro9 from "../assets/project9.png"
 
 const ProjectCardData =[
     {
@@ -47,6 +50,27 @@ const ProjectCardData =[
         text : "Created a e-banking website using PHP and hosted it thorough MAMP(XAMPP for windows), it maintains a proper backend record of customers.",
         view: "https://prat05devs.github.io/phpBankingWebsite/",
         source: "https://github.com/Prat05devs/phpBankingWebsite"
+    },
+    {
+        imgsrc : pro7,
+        title : "Real-Time Group Chat App",
+        text : "Hommies 📞, a real-time group chat application built with WebSockets and Socket.io to enable dynamic, interactive communication between users.",
+        view: "https://github.com/Prat05devs/WebSockets-ChatApp",
+        source: "https://github.com/Prat05devs/WebSockets-ChatApp"
+    },
+    {
+        imgsrc : pro8,
+        title : "PDF Q&A Application",
+        text : "Intelligent document analysis application allows users to upload PDF documents and ask questions about their content using natural language processing.",
+        view: "https://github.com/Prat05devs/PDF_Q-A_Application",
+        source: "https://github.com/Prat05devs/PDF_Q-A_Application"
+    },
+    {
+        imgsrc : pro9,
+        title : "Multi-Step Form with Real-Time Updates",
+        text : "A modern, user-friendly multi-step form built with Next.js and TypeScript. Features dark mode, internationalization, and real-time validation.",
+        view: "https://github.com/Prat05devs/Multi-Step_Form",
+        source: "https://github.com/Prat05devs/Multi-Step_Form"
     }
 ]
 export default ProjectCardData;
